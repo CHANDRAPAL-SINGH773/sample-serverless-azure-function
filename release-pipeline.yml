@@ -8,10 +8,7 @@ steps:
 - script: |
     sudo chmod npm install -g serverless
     npm install
-  displayName: 'Install dependencies'
-
-- script: |
-    serverless deploy
-  displayName: 'Deploy with Serverless'
+    sls deploy
+  displayName: 'Deploy with serverless'
 
 
