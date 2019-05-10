@@ -1,0 +1,15 @@
+trigger:
+  - master
+
+pr: none
+
+steps:
+
+- script: |
+    npm install serverless && npm install
+  displayName: 'Install dependencies'
+
+- script: |
+    sls deploy
+
+

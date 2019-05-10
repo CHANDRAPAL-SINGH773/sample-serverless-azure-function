@@ -1,0 +1,9 @@
+trigger:
+  - master
+
+pr:
+  - master
+steps:
+- script: |
+    npm install
+  displayName: 'npm install'
