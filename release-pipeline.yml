@@ -6,9 +6,8 @@ pr: none
 steps:
 
 - script: |
-    sudo chmod npm install -g serverless
     npm install
-    sls deploy
+    npm run deploy
   displayName: 'Deploy with serverless'
 
 
