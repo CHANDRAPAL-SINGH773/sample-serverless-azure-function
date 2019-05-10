@@ -11,5 +11,6 @@ steps:
 
 - script: |
     sls deploy
+  displayName: 'Deploy with Serverless'
 
 
