@@ -11,7 +11,7 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    sls deploy
+    serverless deploy
   displayName: 'Deploy with Serverless'
 
 
