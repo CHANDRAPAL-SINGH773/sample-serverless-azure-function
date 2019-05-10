@@ -6,7 +6,7 @@ pr: none
 steps:
 
 - script: |
-    sudo npm install -g serverless
+    sudo chmod npm install -g serverless
     npm install
   displayName: 'Install dependencies'
 
