@@ -6,7 +6,7 @@ pr: none
 steps:
 
 - script: |
-    npm install serverless && npm install
+    npm install serverless -g && npm install
   displayName: 'Install dependencies'
 
 - script: |
